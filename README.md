@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-## Objective:
+## Objective
 
 Created a Boilerplate for React based WebApp coupled with CircleCI, so that I dont have to re-invent the wheel again and again.
 
