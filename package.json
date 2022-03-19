@@ -8,10 +8,10 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "lerna run test",
+    "test": "lerna run test --stream",
     "cleanup": "./cleanup.sh",
     "test-staged": "lint-staged",
-    "lint": "lerna run lint",
+    "lint": "lerna run lint --stream",
     "format": "prettier --write 'packages/**/*.js' "
   },
   "husky": {
