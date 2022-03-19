@@ -1,6 +1,6 @@
 # Web boilerplate
 
-[![CircleCI](https://circleci.com/gh/Arup-Upopadhyay/express-react-fullstack/tree/master.svg?style=svg)](https://circleci.com/gh/Arup-Upopadhyay/express-react-fullstack/tree/master)
+[![CircleCI](https://circleci.com/gh/Arup-Upopadhyay/Web-CircleCI-Boilerplate/tree/main.svg?style=svg)](https://circleci.com/gh/Arup-Upopadhyay/Web-CircleCI-Boilerplate/tree/main)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
