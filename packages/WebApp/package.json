@@ -1,0 +1,19 @@
+{
+  "name": "@arupReact/WebApp",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "grunt build",
+    "test": "yarn run jest",
+    "cleanup": "./cleanup.sh",
+    "test-staged": "lint-staged",
+    "lint:fix": "eslint 'src/**/*.js' --fix",
+    "lint": "eslint 'src/**/*.js' ",
+    "format": "prettier --write 'src/**/*js' ",
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "enzyme-adapter-react-16": "^1.15.0",
+    "eslint-plugin-react-hooks": "^4.0.0"
+  }
+}

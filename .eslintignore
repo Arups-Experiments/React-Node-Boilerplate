@@ -1,0 +1,6 @@
+node_modules/**
+packages/WebApp/public/**
+packages/WebApp/dist/**
+packages/WebApp/Gruntfile.js
+packages/WebApp/webpack.config.js
+package.json
