@@ -9,6 +9,8 @@
   ],
   "scripts": {
     "test": "lerna run test --stream",
+    "start": "lerna run start --stream",
+    "build": "lerna run build --stream",
     "cleanup": "./cleanup.sh",
     "test-staged": "lint-staged",
     "lint": "lerna run lint --stream",

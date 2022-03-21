@@ -1,10 +1,5 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-import styled from 'styled-components';
-
-const Container = styled.div`
-  display: flex;
-`;
 
 const UserList = ({ userList = [], initiateUserListDispatch }) => {
   useEffect(() => {
@@ -19,11 +14,11 @@ const UserList = ({ userList = [], initiateUserListDispatch }) => {
   }, [initiateUserListDispatch]);
 
   return (
-    <Container>
+    <>
       {userList.map(user => (
         <li key={user.name}>{user.name}</li>
       ))}
-    </Container>
+    </>
   );
 };
 

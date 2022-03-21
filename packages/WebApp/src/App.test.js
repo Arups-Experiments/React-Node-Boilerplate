@@ -10,8 +10,8 @@ Enzyme.configure({
 
 describe('Testing App Component', function () {
   test('App Component', function () {
-    const comp = shallow(<App />);
-    const temp = comp.find('.container');
-    expect(temp.length).toBe(0);
+    const wrapper = shallow(<App />);
+    const temp = wrapper.find('.users').children();
+    expect(temp.length).toBe(1);
   });
 });
