@@ -1,10 +1,11 @@
 const express = require('express');
-
+const axios = require('axios');
 const app = express();
 const port = 3000;
 const path = require('path');
 // set up rate limiter: maximum of five requests per minute
 var RateLimit = require('express-rate-limit');
+const { response } = require('express');
 
 var limiter = RateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
@@ -16,9 +17,12 @@ var limiter = RateLimit({
 // apply rate limiter to all requests
 app.use(limiter);
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public/dist')));
 
-app.get('/', async (req, res) => res.send('Hello World!'));
+app.get('/users', async (req, res) => {
+  const result = await axios('https://jsonplaceholder.typicode.com/users');
+  res.send(result.data);
+});
 
 app.get('/home', async (req, res) => {
   res.sendFile(path.join(__dirname, './public/dist/index.html'));

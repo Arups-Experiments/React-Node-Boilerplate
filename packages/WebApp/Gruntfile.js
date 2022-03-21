@@ -12,7 +12,7 @@ module.exports = function (grunt) {
     },
     copy: {
       main: {
-        files: [{ expand: true, cwd: 'dist', src: '**', dest: 'public/' }],
+        files: [{ expand: true, cwd: 'dist', src: '**', dest: 'public/dist/' }],
       },
     },
     webpack: {
@@ -25,7 +25,7 @@ module.exports = function (grunt) {
       prod: webpackConfig,
       dev: Object.assign(webpackConfig, { watch: false, mode: 'development' }),
     },
-    clean: ['dist', 'public/*'],
+    clean: ['dist', 'public'],
     watch: {
       scripts: {
         files: [

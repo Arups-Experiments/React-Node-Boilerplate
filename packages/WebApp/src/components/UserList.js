@@ -9,7 +9,8 @@ const Container = styled.div`
 const UserList = ({ userList = [], initiateUserListDispatch }) => {
   useEffect(() => {
     async function fetchDetails() {
-      const URL = 'https://jsonplaceholder.typicode.com/users';
+      //const URL = 'https://jsonplaceholder.typicode.com/users';
+      const URL = '/users';
       const resp = await fetch(URL);
       const json = await resp.json();
       initiateUserListDispatch(json);

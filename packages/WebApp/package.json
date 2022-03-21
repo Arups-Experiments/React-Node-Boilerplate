@@ -12,6 +12,9 @@
     "format": "prettier --write 'src/**/*js' ",
     "start": "nodemon server.js"
   },
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
   "devDependencies": {
     "enzyme-adapter-react-16": "^1.15.0",
     "eslint-plugin-react-hooks": "^4.0.0",
