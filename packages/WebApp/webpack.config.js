@@ -13,6 +13,7 @@ module.exports = {
   resolve: {
     alias: {
       Reducers: path.resolve(__dirname, 'src/reducers/'),
+      Components: path.resolve(__dirname, 'src/components/'),
     },
   },
   optimization: {
