@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   border: 1px red solid;
-  color: brown;
+  color: pink;
 `;
 const UserList = lazy(() => import('Components/UserList'));
 
@@ -21,7 +21,7 @@ const App = ({ userList, initiateUserListDispatch }) => {
 
   return (
     <React.Fragment>
-      <div>Hello Arup Upopadhyay</div>
+      <div>Hello Arup Upopadhyay </div>
       <Suspense fallback={<div id={'loading'}>Loading</div>}>
         <Container className="users">
           <ul>
