@@ -1,0 +1,15 @@
+FROM node:16
+
+EXPOSE 3000
+
+WORKDIR /usr/src/app/client
+
+COPY . ./
+
+RUN yarn config set strict-ssl false --global
+
+RUN yarn install
+
+RUN yarn build 
+
+CMD ["node", "server.js" ]
