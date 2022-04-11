@@ -2,21 +2,17 @@
 
 [![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![CircleCI][circleci-part-one]][circleci-part-two]
 
-## Objective
-
-Created a Boilerplate for React based WebApp coupled with CircleCI, so that I dont have to re-invent the wheel again and again.
-
-- Repo supports only React , Express in a Mono-repo setup based on Lerna + Yarn workspace environment.
-- Rest is all ✨Magic ✨
-
 ## Features
 
-- React + Redux boiler plate code in a Monorepo env.
-- Maintained by the [Arup Upopadhyay]
+Boilerplate for Dockerised, React WebApp coupled with CircleCI loadbalanced with nginx.
+
+- Repo supports only React , Express in a Mono-repo setup based on Lerna + Yarn workspace environment.
+- Repo supports building docker images of WebApps and Nginx, and orchestration with docker-compose
+- Rest is all ✨Magic ✨
 
 ## Installation
 
-Express-React-Fullstack requires [Node.js](https://nodejs.org/) v16+ to run.
+Application Setup requires [Node.js](https://nodejs.org/) v16+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
@@ -27,24 +23,35 @@ cd express-react-fullstack
 lerna bootstrap
 ```
 
-For development environments...open two terminal
-first terminal:
+**For generating web build**:
 
 ```sh
-lerna run build --stream
+lerna run build
 ```
 
-second terminal:
+**For starting the application**:
 
 ```sh
-lerna run start --stream
+lerna run start
+```
+
+**For building docker images**:
+
+```sh
+lerna run docker-build
+```
+
+**For running App using docker-compose**:
+
+```sh
+docker-compose up
 ```
 
 ## License
 
 MIT
 
-**Free Software, Hell Yeah!**
+**Maintained by the [Arup Upopadhyay]**
 
 [//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
 [arup upopadhyay]: https://www.linkedin.com/in/arupupopadhyay/
