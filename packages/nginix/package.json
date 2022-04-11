@@ -1,5 +1,5 @@
 {
-  "name": "nginix",
+  "name": "@arupReact/nginx",
   "version": "1.0.0",
   "scripts": {
     "docker-build": "sudo docker build -t my-nginx -f Dockerfile.prod ."
