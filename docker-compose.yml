@@ -3,17 +3,16 @@ version: '3.9'
 services:
   nginx:
     image: my-nginx:latest
+    depends_on:
+      - web-1
+      - web-2
     ports:
       - '8080:80'
   web-2:
     image: my-docker-react-app:latest
-    depends_on:
-      - nginx
-    ports:
-      - '8082:3000'
-  web-1:
-    image: my-docker-react-app:latest
-    depends_on:
-      - nginx
     ports:
       - '8081:3000'
+  web-1:
+    image: my-docker-react-app:latest
+    ports:
+      - '8082:3000'
