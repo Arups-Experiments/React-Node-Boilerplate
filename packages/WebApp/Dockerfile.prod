@@ -6,10 +6,8 @@ WORKDIR /usr/src/app/client
 
 COPY . ./
 
-RUN yarn config set strict-ssl false --global
-
-RUN yarn install
-
-RUN yarn build 
+RUN yarn config set strict-ssl false --global \
+&& yarn install \
+&& yarn build 
 
 CMD ["node", "server.js" ]
