@@ -1,6 +1,7 @@
 import React from 'react';
 import Enzyme, { shallow } from 'enzyme';
-import App from './App';
+import Users from '../src/components/UserListComponent';
+import Dogs from '../src/components/DogListComponent';
 import { Provider } from 'react-redux';
 import configureMockStore from 'redux-mock-store';
 
@@ -18,7 +19,8 @@ describe('Testing App Component', function () {
   test('App Component', function () {
     const wrapper = shallow(
       <Provider store={store}>
-        <App />
+        <Users />
+        <Dogs />
       </Provider>
     );
     const temp = wrapper.find('.users').children();
