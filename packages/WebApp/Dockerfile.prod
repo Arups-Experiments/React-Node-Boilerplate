@@ -7,7 +7,17 @@ WORKDIR /usr/src/app/client
 COPY . ./
 
 RUN yarn config set strict-ssl false --global \
+<<<<<<< HEAD
     && yarn install \
     && yarn build 
+=======
+<<<<<<< HEAD
+&& yarn install \
+&& yarn build 
+=======
+    && yarn install \
+    && yarn build 
+>>>>>>> d9858063ff7c5c47b326565a91845d3488e2b354
+>>>>>>> develop
 
 CMD ["node", "server.js" ]
