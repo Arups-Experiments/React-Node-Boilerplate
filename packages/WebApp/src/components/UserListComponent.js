@@ -1,14 +1,23 @@
-import React, { Suspense, lazy, useEffect, useState } from 'react';
-import { connect } from 'react-redux';
 import styled from 'styled-components';
+import { connect } from 'react-redux';
+import React, { useEffect, useState } from 'react';
+
+const UserList = ({ userList = [] }) => {
+  return (
+    <>
+      {userList.map(user => (
+        <li key={user.name}>{user.name}</li>
+      ))}
+    </>
+  );
+};
 
 const Container = styled.div`
   border: 1px red solid;
   color: brown;
 `;
-const UserList = lazy(() => import('Components/UserList'));
 
-const App = ({ userList, initiateUserListDispatch }) => {
+const User = ({ userList, initiateUserListDispatch }) => {
   useEffect(() => {
     async function fetchDetails() {
       const URL = '/users';
@@ -22,13 +31,11 @@ const App = ({ userList, initiateUserListDispatch }) => {
   return (
     <React.Fragment>
       <div>Hello Arup Upopadhyay</div>
-      <Suspense fallback={<div id={'loading'}>Loading</div>}>
-        <Container className="users">
-          <ul>
-            <UserList userList={userList} />
-          </ul>
-        </Container>
-      </Suspense>
+      <Container className="users">
+        <ul>
+          <UserList userList={userList} />
+        </ul>
+      </Container>
     </React.Fragment>
   );
 };
@@ -46,4 +53,4 @@ const mapDispatchToProps = dispatch => ({
   },
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(User);
