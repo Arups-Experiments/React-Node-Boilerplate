@@ -8,7 +8,6 @@ export default function withLoader(Element, url) {
       async function getData() {
         const res = await fetch(url);
         const dogData = await res.json();
-        console.log(dogData);
         setData(dogData);
       }
 

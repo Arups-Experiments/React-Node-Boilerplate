@@ -1,13 +1,15 @@
 FROM node:16
 
-EXPOSE 3000
-
 WORKDIR /usr/src/app/client
 
 COPY . ./
 
+ENV NODE_TLS_REJECT_UNAUTHORIZED 0
+
 RUN yarn config set strict-ssl false --global \
     && yarn install \
     && yarn build 
+
+EXPOSE 3000
 
 CMD ["node", "server.js" ]
