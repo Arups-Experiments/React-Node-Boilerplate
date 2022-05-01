@@ -2,17 +2,17 @@ version: '3.9'
 
 services:
   nginx:
-    image: my-nginx:latest
+    image: techiearup/my-nginx:1.0
     depends_on:
       - web-1
       - web-2
     ports:
       - '8080:80'
   web-2:
-    image: my-docker-react-app:latest
+    image: techiearup/my-docker-react-app:1.0
     ports:
       - '8081:3000'
   web-1:
-    image: my-docker-react-app:latest
+    image: techiearup/my-docker-react-app:1.0
     ports:
       - '8082:3000'
