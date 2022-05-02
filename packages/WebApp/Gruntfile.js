@@ -53,5 +53,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
 
   grunt.registerTask('test', ['eslint']);
-  grunt.registerTask('build', ['clean', 'webpack', 'copy', 'watch']);
+  grunt.registerTask('build', ['clean', 'webpack', 'copy' /*'watch'*/]);
 };
