@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "docker-build": "sudo docker build -t techiearup/my-docker-react-app -f Dockerfile.prod .",
+    "docker-build": "sudo docker build -t techiearup/my-docker-react-app:1.0 -f Dockerfile.prod .",
     "build": "grunt build",
     "test": "yarn run jest",
     "cleanup": "./cleanup.sh",

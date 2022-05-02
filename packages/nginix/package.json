@@ -2,7 +2,7 @@
   "name": "@arupReact/nginx",
   "version": "1.0.0",
   "scripts": {
-    "docker-build": "sudo docker build -t techiearup/my-nginx -f Dockerfile.prod ."
+    "docker-build": "sudo docker build -t techiearup/my-nginx:1.0 -f Dockerfile.prod ."
   },
   "license": "MIT"
 }
