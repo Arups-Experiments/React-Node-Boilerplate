@@ -5,7 +5,7 @@ const port = 3000;
 const path = require('path');
 const { response } = require('express');
 
-app.use(express.static(path.join(__dirname, 'Client/public/dist')));
+app.use(express.static(path.join(__dirname, '../public/dist')));
 
 app.get('/users', async (req, res) => {
   const result = await axios('https://jsonplaceholder.typicode.com/users');
