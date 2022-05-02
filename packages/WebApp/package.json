@@ -8,10 +8,10 @@
     "test": "yarn run jest",
     "cleanup": "./cleanup.sh",
     "test-staged": "lint-staged",
-    "lint:fix": "eslint 'src/**/*.js' --fix",
-    "lint": "eslint 'src/**/*.js' ",
-    "format": "prettier --write 'src/**/*js' ",
-    "start": "nodemon server.js"
+    "lint:fix": "eslint './Client/src/**/*.js' --fix",
+    "lint": "eslint './Client/src/**/*.js' ",
+    "format": "prettier --write './Client/src/**/*js' ",
+    "start": "nodemon ./Server/server.js"
   },
   "dependencies": {
     "axios": "^0.26.1"

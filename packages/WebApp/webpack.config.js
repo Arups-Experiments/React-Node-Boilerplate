@@ -1,10 +1,12 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const path = require('path');
+const clientPath = './Client/';
+const serverPath = './Server/';
 
 module.exports = {
   mode: 'production',
   entry: {
-    index: './src/index.js',
+    index: `${clientPath}/src/index.js`,
   },
   output: {
     filename: '[name].bundle.js',
@@ -12,8 +14,8 @@ module.exports = {
   },
   resolve: {
     alias: {
-      Reducers: path.resolve(__dirname, 'src/reducers/'),
-      Components: path.resolve(__dirname, 'src/components/'),
+      Reducers: path.resolve(__dirname, `${clientPath}/src/reducers/`),
+      Components: path.resolve(__dirname, `${clientPath}/src/components/`),
     },
   },
   optimization: {
@@ -51,7 +53,7 @@ module.exports = {
       },
       hash: true,
       title: 'React App',
-      template: './src/index.html',
+      template: `${clientPath}/src/index.html`,
       filename: './index.html',
     }),
   ],

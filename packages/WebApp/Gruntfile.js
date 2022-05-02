@@ -1,5 +1,7 @@
 const webpackConfig = require('./webpack.config.js');
 const path = require('path');
+const clientPath = './Client/';
+const serverPath = './Server/';
 
 module.exports = function (grunt) {
   grunt.initConfig({
@@ -8,7 +10,7 @@ module.exports = function (grunt) {
       options: {
         configFile: '.eslintrc',
       },
-      target: ['src/**/*.js'],
+      target: [`${clientPath}src/**/*.js`],
     },
     copy: {
       main: {
@@ -29,8 +31,8 @@ module.exports = function (grunt) {
     watch: {
       scripts: {
         files: [
-          'src/**/*.js',
-          'server.js',
+          `${clientPath}src/**/*.js`,
+          `${serverPath}server.js`,
           'Gruntfile.js',
           'webpack.config.js',
         ],
@@ -51,5 +53,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
 
   grunt.registerTask('test', ['eslint']);
-  grunt.registerTask('build', ['clean', 'webpack', 'copy' /*'watch'*/]);
+  grunt.registerTask('build', ['clean', 'webpack', 'copy', 'watch']);
 };
