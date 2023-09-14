@@ -20,7 +20,7 @@ Install the dependencies and devDependencies and start the server.
 yarn global add lerna
 git clone https://github.com/Arup-Upopadhyay/express-react-fullstack.git
 cd express-react-fullstack
-lerna bootstrap
+yarn
 ```
 
 **For generating web build**:
