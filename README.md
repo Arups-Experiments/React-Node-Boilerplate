@@ -43,6 +43,8 @@ yarn run docker-build
 
 **For running App using docker-compose**:
 
+Run and hit localhost:8081 or localhost:8080
+
 ```sh
 docker-compose up
 ```
