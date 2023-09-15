@@ -26,19 +26,19 @@ yarn
 **For generating web build**:
 
 ```sh
-lerna run build
+yarn run build
 ```
 
 **For starting the application**:
 
 ```sh
-lerna run start
+yarn run start
 ```
 
 **For building docker images**:
 
 ```sh
-lerna run docker-build
+yarn run docker-build
 ```
 
 **For running App using docker-compose**:
