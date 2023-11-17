@@ -1,6 +1,6 @@
 # Web boilerplate:
 
-[![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![CircleCI][circleci-part-one]][circleci-part-two]
+[![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![Node.js CI](https://github.com/Arup-Upopadhyay/Web-CircleCI-Boilerplate/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/Arup-Upopadhyay/Web-CircleCI-Boilerplate/actions/workflows/main.yml)
 
 ## Features
 
