@@ -1,12 +1,12 @@
 # Web boilerplate:
 
-[![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![Node.js CI][git-action-one]][git-action-icon] [![Web-Project]][react-icon]
+[![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![Node.js CI][git-action-one]][git-action-icon] [![Web-Project][react-icon]]
 
 ## Features
 
-Boilerplate for Dockerised, React WebApp coupled with CircleCI loadbalanced with nginx.
+Boilerplate for Dockerised, React WebApp coupled with CircleCI load-balanced with nginx.
 
-- Repo supports only React , Express in a Mono-repo setup based on Lerna + Yarn workspace environment.
+- Repo supports only React, and Express in a Mono-repo setup based on Lerna + Yarn workspace environment.
 - Repo supports building docker images of WebApps and Nginx, and orchestration with docker-compose
 - Rest is all ✨Magic ✨
 
@@ -41,7 +41,7 @@ yarn run start
 yarn run docker-build
 ```
 
-**For running App using docker-compose**:
+**For running the App using docker-compose**:
 
 Run and hit localhost:8081 or localhost:8080
 
@@ -55,7 +55,7 @@ MIT
 
 **Maintained by the [Arup Upopadhyay]**
 
-[//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
+[//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format it nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
 [arup upopadhyay]: https://www.linkedin.com/in/arupupopadhyay/
 [npm-url]: https://npmjs.org/package/eslint-plugin-react
 [git-action-icon]: https://github.com/Arup-Upopadhyay/Web-CircleCI-Boilerplate/actions/workflows/main.yml
