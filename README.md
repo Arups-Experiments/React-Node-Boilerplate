@@ -1,6 +1,6 @@
 # Web boilerplate:
 
-[![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![Node.js CI][git-action-one]][git-action-icon] [![Web-Project][react-icon]]
+[![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![Node.js CI][git-action-one]][git-action-icon] [![Web-Project]][react-icon]
 
 ## Features
 
