@@ -1,15 +1,17 @@
 # Web boilerplate:
 
-[![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![Node.js CI][git-action-one]][git-action-icon] [![Web-Project][react-icon]]
+[![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![Node.js CI][git-action-one]][git-action-icon] 
 
 ## Features
 
-Boilerplate for Dockerised, React WebApp coupled with CircleCI load-balanced with nginx.
+Boilerplate for Dockerised, React App coupled with CircleCI load-balanced with nginx.
 
 - Repo supports only React, and Express in a Mono-repo setup based on Lerna + Yarn workspace environment.
 - Repo supports building docker images of WebApps and Nginx, and orchestration with docker-compose
 - Rest is all ✨Magic ✨
 
+## TechStack
+![react-icon] ![nodejs-icon] ![webpack-icon] ![docker-icon] ![redux-icon]
 ## Installation
 
 Application Setup requires [Node.js](https://nodejs.org/) v16+ to run.
@@ -64,4 +66,8 @@ MIT
 [circleci-part-two]: https://circleci.com/gh/Arup-Upopadhyay/Web-CircleCI-Boilerplate/tree/main
 [mit-badge]: https://img.shields.io/badge/License-MIT-green.svg
 [mit-link]: https://opensource.org/licenses/MIT
-[react-icon]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-icon]: https://badges.aleen42.com/src/react.svg
+[nodejs-icon]: https://badges.aleen42.com/src/node.svg
+[webpack-icon]: https://badges.aleen42.com/src/webpack.svg
+[docker-icon]: https://badges.aleen42.com/src/docker.svg
+[redux-icon]: https://badges.aleen42.com/src/redux.svg
