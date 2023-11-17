@@ -1,6 +1,6 @@
 # Web boilerplate:
 
-[![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![Node.js CI][git-action-one]][git-action-icon]
+[![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![Node.js CI][git-action-one]][git-action-icon] [![Web-Project][react-icon]]
 
 ## Features
 
@@ -64,3 +64,4 @@ MIT
 [circleci-part-two]: https://circleci.com/gh/Arup-Upopadhyay/Web-CircleCI-Boilerplate/tree/main
 [mit-badge]: https://img.shields.io/badge/License-MIT-green.svg
 [mit-link]: https://opensource.org/licenses/MIT
+[react-icon]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
