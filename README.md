@@ -1,6 +1,6 @@
 # Web boilerplate:
 
-[![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![Node.js CI](https://github.com/Arup-Upopadhyay/Web-CircleCI-Boilerplate/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/Arup-Upopadhyay/Web-CircleCI-Boilerplate/actions/workflows/main.yml)
+[![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![Node.js CI][git-action-one]][git-action-icon]
 
 ## Features
 
@@ -18,7 +18,7 @@ Install the dependencies and devDependencies and start the server.
 
 ```sh
 yarn global add lerna
-git clone https://github.com/Arup-Upopadhyay/express-react-fullstack.git <folder-name>
+git clonegit@github.com:Arup-Upopadhyay/React-Node-Boilerplate.git <folder-name>
 cd <folder-name>
 yarn
 ```
@@ -58,8 +58,9 @@ MIT
 [//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
 [arup upopadhyay]: https://www.linkedin.com/in/arupupopadhyay/
 [npm-url]: https://npmjs.org/package/eslint-plugin-react
+[git-action-icon]: https://github.com/Arup-Upopadhyay/Web-CircleCI-Boilerplate/actions/workflows/main.yml
 [npm-image]: https://img.shields.io/npm/v/eslint-plugin-react.svg
-[circleci-part-one]: https://circleci.com/gh/Arup-Upopadhyay/Web-CircleCI-Boilerplate/tree/main.svg?style=svg
+[git-action-one]: https://github.com/Arup-Upopadhyay/Web-CircleCI-Boilerplate/actions/workflows/main.yml/badge.svg?branch=main&event=push
 [circleci-part-two]: https://circleci.com/gh/Arup-Upopadhyay/Web-CircleCI-Boilerplate/tree/main
 [mit-badge]: https://img.shields.io/badge/License-MIT-green.svg
 [mit-link]: https://opensource.org/licenses/MIT
