@@ -18,8 +18,8 @@ Install the dependencies and devDependencies and start the server.
 
 ```sh
 yarn global add lerna
-git clone https://github.com/Arup-Upopadhyay/express-react-fullstack.git
-cd express-react-fullstack
+git clone https://github.com/Arup-Upopadhyay/express-react-fullstack.git <folder-name>
+cd <folder-name>
 yarn
 ```
 
