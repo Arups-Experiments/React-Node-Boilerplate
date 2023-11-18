@@ -1,6 +1,6 @@
 # Web boilerplate: [Repo-Link](https://github.com/Arup-Upopadhyay/React-Node-Boilerplate)
 
-[![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![Node.js CI][git-action-one]][git-action-icon] 
+[![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![Node.js CI][git-action-one]][git-action-icon]
 
 ## Features
 
@@ -11,7 +11,9 @@ Boilerplate for Dockerised, React App coupled with CircleCI load-balanced with n
 - Rest is all ✨Magic ✨
 
 ## TechStack
-![react-icon] ![nodejs-icon] ![webpack-icon] ![docker-icon] ![redux-icon]
+
+![react-icon] ![nodejs-icon] ![webpack-icon] ![docker-icon] ![redux-icon] ![nginx-icon]
+
 ## Installation
 
 Application Setup requires [Node.js](https://nodejs.org/) v16+ to run.
@@ -68,6 +70,7 @@ MIT
 [mit-link]: https://opensource.org/licenses/MIT
 [react-icon]: https://badges.aleen42.com/src/react.svg
 [nodejs-icon]: https://badges.aleen42.com/src/node.svg
-[webpack-icon]: https://badges.aleen42.com/src/webpack.svg
-[docker-icon]: https://badges.aleen42.com/src/docker.svg
-[redux-icon]: https://badges.aleen42.com/src/redux.svg
+[webpack-icon]: https://img.shields.io/badge/docker-latest-aabbcc?labelColor=2c7391&style=plastic&logo=webpack
+[docker-icon]: https://img.shields.io/badge/docker-latest-aabbcc?labelColor=2c7391&style=plastic&logo=docker
+[redux-icon]: https://img.shields.io/badge/react-latest-aabbcc?labelColor=2c7391&style=plastic&logo=react
+[nginx_icon]: https://img.shields.io/badge/nginx-latest-aabbcc?labelColor=2c7391&style=plastic&logo=nginx
