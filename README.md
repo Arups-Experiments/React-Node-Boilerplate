@@ -12,7 +12,7 @@ Boilerplate for Dockerised, React App coupled with CircleCI load-balanced with n
 
 ## TechStack
 
-![react-icon] ![nodejs-icon] ![webpack-icon] ![docker-icon] ![redux-icon] ![nginx-icon]
+![nodejs-icon] ![webpack-icon] ![docker-icon] ![react-icon] ![nginx_icon]
 
 ## Installation
 
@@ -72,5 +72,5 @@ MIT
 [nodejs-icon]: https://badges.aleen42.com/src/node.svg
 [webpack-icon]: https://img.shields.io/badge/docker-latest-aabbcc?labelColor=2c7391&style=plastic&logo=webpack
 [docker-icon]: https://img.shields.io/badge/docker-latest-aabbcc?labelColor=2c7391&style=plastic&logo=docker
-[redux-icon]: https://img.shields.io/badge/react-latest-aabbcc?labelColor=2c7391&style=plastic&logo=react
+[react-icon]: https://img.shields.io/badge/react-latest-aabbcc?labelColor=2c7391&style=plastic&logo=react
 [nginx_icon]: https://img.shields.io/badge/nginx-latest-aabbcc?labelColor=2c7391&style=plastic&logo=nginx
