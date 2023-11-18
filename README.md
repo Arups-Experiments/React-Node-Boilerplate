@@ -65,11 +65,9 @@ MIT
 [git-action-icon]: https://github.com/Arup-Upopadhyay/Web-CircleCI-Boilerplate/actions/workflows/main.yml
 [npm-image]: https://img.shields.io/npm/v/eslint-plugin-react.svg
 [git-action-one]: https://github.com/Arup-Upopadhyay/Web-CircleCI-Boilerplate/actions/workflows/main.yml/badge.svg?branch=main&event=push
-[circleci-part-two]: https://circleci.com/gh/Arup-Upopadhyay/Web-CircleCI-Boilerplate/tree/main
 [mit-badge]: https://img.shields.io/badge/License-MIT-green.svg
 [mit-link]: https://opensource.org/licenses/MIT
-[react-icon]: https://badges.aleen42.com/src/react.svg
-[nodejs-icon]: https://badges.aleen42.com/src/node.svg
+[nodejs-icon]: https://img.shields.io/badge/nodejs-latest-aabbcc?labelColor=2c7391&style=plastic&logo=Node.js
 [webpack-icon]: https://img.shields.io/badge/docker-latest-aabbcc?labelColor=2c7391&style=plastic&logo=webpack
 [docker-icon]: https://img.shields.io/badge/docker-latest-aabbcc?labelColor=2c7391&style=plastic&logo=docker
 [react-icon]: https://img.shields.io/badge/react-latest-aabbcc?labelColor=2c7391&style=plastic&logo=react
