@@ -1,0 +1,8 @@
+{
+  "name": "@arupReact/nginx",
+  "version": "1.0.0",
+  "scripts": {
+    "docker-build": "docker build -t techiearup/my-nginx:1.0 -f Dockerfile.prod ."
+  },
+  "license": "MIT"
+}
