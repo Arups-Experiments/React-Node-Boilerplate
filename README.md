@@ -1,4 +1,6 @@
-# Web boilerplate: [Repo-Link](https://github.com/Arup-Upopadhyay/React-Node-Boilerplate)
+# Web boilerplate:
+
+[![Git](https://img.shields.io/badge/Git-React--Node--Boilerplate-aabbcc?labelColor=70ace0&style=plastic&logo=github&link=https://github.com/Arup-Upopadhyay/React-Node-Boilerplate)](https://github.com/Arup-Upopadhyay/React-Node-Boilerplate)
 
 [![NPM version][npm-image]][npm-url] [![License: MIT][mit-badge]][mit-link] [![Node.js CI][git-action-one]][git-action-icon]
 
@@ -58,7 +60,7 @@ docker-compose up
 MIT
 
 **Maintained by the [Arup Upopadhyay]**
-![arup_contributor]
+[![Arup Upopadhyay](https://img.shields.io/badge/Arup%20Upopadhyay-contributor-aabbcc?labelColor=70ace0&style=plastic&link=https://www.linkedin.com/in/arupupopadhyay/)](https://www.linkedin.com/in/arupupopadhyay/)
 
 [//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format it nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
 [arup upopadhyay]: https://www.linkedin.com/in/arupupopadhyay/
@@ -73,4 +75,3 @@ MIT
 [docker-icon]: https://img.shields.io/badge/docker-latest-aabbcc?labelColor=2c7391&style=plastic&logo=docker
 [react-icon]: https://img.shields.io/badge/react-latest-aabbcc?labelColor=2c7391&style=plastic&logo=react
 [nginx_icon]: https://img.shields.io/badge/nginx-latest-aabbcc?labelColor=2c7391&style=plastic&logo=nginx
-[arup_contributor]: https://img.shields.io/badge/Arup%20Upopadhyay-contributor-aabbcc?labelColor=70ace0&style=plastic
