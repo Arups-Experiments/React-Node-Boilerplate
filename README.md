@@ -53,7 +53,7 @@ docker-compose up
 
 [//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format it nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
 [arup upopadhyay]: https://www.linkedin.com/in/arupupopadhyay/
-[npm-url]: https://npmjs.org/package/eslint-plugin-react
+[npm-url]: 'https://github.com/npm/cli
 [git-action-icon]: https://github.com/Arup-Upopadhyay/Web-CircleCI-Boilerplate/actions/workflows/main.yml
 [npm-image]: https://img.shields.io/npm/v/eslint-plugin-react.svg
 [git-action-one]: https://github.com/Arup-Upopadhyay/Web-CircleCI-Boilerplate/actions/workflows/main.yml/badge.svg?branch=main&event=push
