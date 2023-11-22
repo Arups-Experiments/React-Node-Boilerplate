@@ -6,6 +6,7 @@ const UserData = ({ name }) => {
 
 export default function Users() {
   const [users, setUsers] = React.useState([]);
+  const [activeUser, setActiveUser] = React.useState('');
 
   React.useEffect(() => {
     const fetchRemoteUsers = async () => {
@@ -18,16 +19,25 @@ export default function Users() {
     fetchRemoteUsers();
   }, []);
 
+  const handleUserSelected = evt => {
+    setActiveUser(evt.target.value);
+  };
+
   return (
     <div>
       <label htmlFor="users">Choose a user:</label>
-      <select id="users">
+      <select id="users" onChange={handleUserSelected}>
         {users.map(user => (
           <option value={user.name} key={user.id}>
             {user.name}
           </option>
         ))}
       </select>
+      {activeUser && (
+        <div>
+          <UserData name={activeUser} />{' '}
+        </div>
+      )}
     </div>
   );
 }
