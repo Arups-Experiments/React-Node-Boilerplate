@@ -1,23 +1,12 @@
 import React from 'react';
+import useFetchUsers from './useFetchUsers';
 
 const UserData = ({ name }) => {
   return <span>You selected {name}</span>;
 };
 
 export default function Users() {
-  const [users, setUsers] = React.useState([]);
-  const [activeUser, setActiveUser] = React.useState('');
-
-  React.useEffect(() => {
-    const fetchRemoteUsers = async () => {
-      const response = await fetch(
-        'https://jsonplaceholder.typicode.com/users'
-      );
-      const result = await response.json();
-      setUsers(result);
-    };
-    fetchRemoteUsers();
-  }, []);
+  const { users, setUsers, activeUser, setActiveUser } = useFetchUsers();
 
   const handleUserSelected = evt => {
     setActiveUser(evt.target.value);
