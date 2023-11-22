@@ -13,7 +13,7 @@ function useStopWatchSetUp() {
     };
   }, []);
 
-  return { time, setTime };
+  return [time, setTime];
 }
 
 export default useStopWatchSetUp;

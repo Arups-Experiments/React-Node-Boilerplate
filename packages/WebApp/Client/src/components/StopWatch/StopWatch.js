@@ -3,7 +3,7 @@ import './stopwatch.css';
 import useStopWatchSetUp from './useStopWatch';
 
 const StopWatch = () => {
-  const { time } = useStopWatchSetUp();
+  const [time] = useStopWatchSetUp();
 
   return (
     <div className="timer-div">

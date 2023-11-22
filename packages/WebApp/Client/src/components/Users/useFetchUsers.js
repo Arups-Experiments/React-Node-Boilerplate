@@ -15,7 +15,7 @@ function useFetchUsers() {
     fetchRemoteUsers();
   }, []);
 
-  return { users, setUsers, activeUser, setActiveUser };
+  return [users, setUsers, activeUser, setActiveUser];
 }
 
 export default useFetchUsers;

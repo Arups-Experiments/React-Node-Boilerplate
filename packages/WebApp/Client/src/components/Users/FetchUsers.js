@@ -6,7 +6,7 @@ const UserData = ({ name }) => {
 };
 
 export default function Users() {
-  const { users, setUsers, activeUser, setActiveUser } = useFetchUsers();
+  const [users, setUsers, activeUser, setActiveUser] = useFetchUsers();
 
   const handleUserSelected = evt => {
     setActiveUser(evt.target.value);
@@ -24,7 +24,7 @@ export default function Users() {
       </select>
       {activeUser && (
         <div>
-          <UserData name={activeUser} />{' '}
+          <UserData name={activeUser} />
         </div>
       )}
     </div>
