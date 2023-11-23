@@ -7,17 +7,16 @@ export default function Timer() {
       switch (action.type) {
         case 'start':
           {
-            if (timerRef.current) clearInterval(timerRef.current);
-
-            timerRef.current = setInterval(() => {
-              dispatcher({ type: 'update' });
-            }, 1000);
+            if (!timerRef.current) {
+              timerRef.current = setInterval(() => {
+                dispatcher({ type: 'update' });
+              }, 1000);
+            }
             return { ...state };
           }
           break;
-        case 'stop':
+        case 'pause':
           {
-            debugger;
             clearInterval(timerRef.current);
             timerRef.current = 0;
             return { ...state };
@@ -43,7 +42,7 @@ export default function Timer() {
       <div>Timer {timer.time.toLocaleTimeString()}</div>
       <div>
         <button onClick={() => dispatcher({ type: 'start' })}>start</button>
-        <button onClick={() => dispatcher({ type: 'stop' })}>stop</button>
+        <button onClick={() => dispatcher({ type: 'pause' })}>pause</button>
       </div>
     </React.Fragment>
   );
