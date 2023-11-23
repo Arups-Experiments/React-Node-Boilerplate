@@ -8,7 +8,7 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON('package.json'),
     eslint: {
       options: {
-        configFile: '.eslintrc',
+        configFile: '.eslintrc.json',
       },
       target: [`${clientPath}src/**/*.js`],
     },
@@ -53,5 +53,10 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
 
   grunt.registerTask('test', ['eslint']);
-  grunt.registerTask('build', ['clean', 'webpack', 'copy' /*'watch'*/]);
+  grunt.registerTask('build', [
+    'clean',
+    'eslint',
+    'webpack',
+    'copy' /*'watch'*/,
+  ]);
 };
