@@ -1,13 +1,14 @@
 import React from 'react';
-import ReactDom from 'react-dom';
-import StopWatch from './components/StopWatch/StopWatch.js';
-import Users from './components/Users/FetchUsers.js';
-import Timer from './components/Timer/Timer.js';
+import ReactDom from 'react-dom/client';
 import 'normalize.css';
+import App from './components/Counter';
 
-ReactDom.render(
-  <React.Fragment>
-    <Timer />
-  </React.Fragment>,
-  document.getElementById('container')
+const root = ReactDom.createRoot(document.getElementById('container'));
+
+root.render(
+  <React.StrictMode>
+    <React.Fragment>
+      <App />
+    </React.Fragment>
+  </React.StrictMode>
 );
