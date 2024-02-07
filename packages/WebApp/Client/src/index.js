@@ -6,9 +6,7 @@ import App from './components/Counter';
 const root = ReactDom.createRoot(document.getElementById('container'));
 
 root.render(
-  <React.StrictMode>
-    <React.Fragment>
-      <App />
-    </React.Fragment>
-  </React.StrictMode>
+  <React.Fragment>
+    <App />
+  </React.Fragment>
 );
